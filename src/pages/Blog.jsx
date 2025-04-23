@@ -6,7 +6,7 @@ import { blogData } from "../data/BlogData"
 function Blog() {
     return (
         <div>
-            <Header />
+            <Header/>
 
             <div className="container blog-cards">
                 {blogData.map((blog, index) => {
